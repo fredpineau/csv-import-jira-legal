@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support - CSV Import for Jira Select Fields</title>
+  <meta name="description" content="Support page for CSV Import for Jira Select Fields." />
+  <style>
+    :root {
+      --bg: #f7f8f9;
+      --card: #ffffff;
+      --text: #172b4d;
+      --muted: #5e6c84;
+      --primary: #0c66e4;
+      --border: #dfe1e6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 48px 20px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px;
+      box-shadow: 0 1px 2px rgba(9,30,66,0.08);
+    }
+    h1, h2 { color: var(--text); }
+    h1 { margin-top: 0; }
+    p, li {
+      line-height: 1.65;
+      color: var(--muted);
+    }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .topnav {
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    code {
+      background: #f1f2f4;
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <div class="topnav"><a href="./index.html">← Back to home</a></div>
+
+      <h1>Support</h1>
+
+      <p>
+        Support for <strong>CSV Import for Jira Select Fields</strong>.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:supportosphart@gmail.com">supportosphart@gmail.com</a>
+      </p>
+
+      <h2>How to use the app</h2>
+      <ol>
+        <li>Open the app from Jira administration.</li>
+        <li>Select a dropdown custom field.</li>
+        <li>Select a field context.</li>
+        <li>Upload a CSV file with one option per line.</li>
+        <li>Click <code>Preview</code> to review changes.</li>
+        <li>Click <code>Apply import</code> to update the options.</li>
+      </ol>
+
+      <h2>CSV format</h2>
+      <p>
+        Use one option value per line.
+      </p>
+
+      <h2>Known behavior</h2>
+      <ul>
+        <li>Missing values may be disabled.</li>
+        <li>Disabled values present in the CSV may be re-enabled.</li>
+        <li>You can optionally sort values alphabetically after import.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
